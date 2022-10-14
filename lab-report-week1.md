@@ -21,7 +21,7 @@ CSE 15L provides its students with a course specific account where we can connec
 To look up the course specific account for CSE 15L, this link is to be used: [CSE 15L Course Specific Account](https://sdacs.ucsd.edu/~icc/index.php) 
 
 
-To start logging into the new course specific account, we need to open a terminal and remotely connect to the server using the following command:
+To start logging into the new course specific account, we need to open a terminal and remotely connect to the server. To open a terminal on VSCode, we need to use 'Command + `' or Terminal → New Terminal menu option. We will then use the following command to remotely connect:
 
  
  > $ ssh cs15lfa22zz@ieng6.ucsd.edu 
@@ -51,7 +51,18 @@ To use this command, we will create a file on our computer like the following:
 
 ![Where Am I](WhereamI.png)
 
-Once this is compiled and run, we will run this command again but with the username. There is a difference in locations when the command is run first and then again with the username. The first location is Mac OS X while the second one is Linux, as displayed below:
+>class WhereAmI {
+    public static void main(String[] args) {
+      System.out.println(System.getProperty("os.name"));
+      System.out.println(System.getProperty("user.name"));
+      System.out.println(System.getProperty("user.home"));
+      System.out.println(System.getProperty("user.dir"));
+    }
+  }
+
+Once this is compiled and run, we will run the 'scp' command again but with the username. 
+
+There is a difference in locations when the command is run first and then again with the username. The first location is Mac OS X while the second one is Linux, as displayed below:
 
 ![Moving files with scp](part4.png)
 
@@ -59,7 +70,10 @@ Once this is compiled and run, we will run this command again but with the usern
 
 **5. Setting an SSH Key**
 
-To prevent us from typing in our password every time we log in, we make use of 'ssh keys'. This creates a public key and private key which are copied to some place on the server and some place on our own computer, as shown below:
+To prevent us from typing in our password every time we log in, we make use of 'ssh keys'. 
+
+We do this by using the `ssh-keygen` command.
+This creates a public key- - id_rsa.pub, and private key- id_rsa. These are copied to some place on the server and some place on our own computer, as shown below:
 
 
 ![Generating the Key](keygen.png) 
@@ -87,6 +101,14 @@ Now we don't require to enter a password to login which reduces a lot of time. O
 Intially the number of keystrokes were approximately **50-54**. Now, the number of key strokes now decresased. It decreased by almost  **25-30 keystrokes**.   
 
 Hence, now it has become **9-10** key strokes and running thye command became more efficient. 
+
+Another command that can be used is 'pwd' which prints our working directory:
+
+> ssh cs15lfa22bu@ieng6.ucsd.edu pwd
+
+![Example of Efficiency2](lastss.png)
+
+
 
 --- 
 
