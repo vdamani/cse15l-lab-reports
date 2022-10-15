@@ -7,6 +7,7 @@
 
 To install VS Code, go to [Visual Studio Code](https://code.visualstudio.com/). Read the instructions to download the application and install it. You can pick whichever version is best suited for your system like OSX, Windows and Linux.
 
+
 **VS Code should look like this when you install it:**
 
 ![Installed VS CODE](vscodehome.png)
