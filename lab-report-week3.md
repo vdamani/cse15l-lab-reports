@@ -71,7 +71,9 @@ Add:
 
 In all of these screenshots:
 - Methods being called: handleRequest, getQuery(), getPath(), contains()
-- 'getPath()' returns a String which is the path of the URL, '/add'. 'contains()' returns a boolean value, true or false, based on whether the characters present in the String or not. In this case, it is true. 'getQuery()' returns a String that is the query, '?s=apple' and '?=pineapple'.
+- getPath(): returns "/add",
+  getQuery(): returns "?s=apple" and "?s=pineapple"
+- 'getPath()' returns a String which is the path of the URL, '/add'. 'getQuery()' returns a String that is the query, '?s=apple' and '?=pineapple'.
 
 
 
