@@ -73,6 +73,8 @@ In all of these screenshots:
 - Methods being called: handleRequest, getQuery(), getPath(), contains()
 - getPath(): returns "/add",
   getQuery(): returns "?s=apple" and "?s=pineapple"
+  parameters: [apple, pineapple, apple]
+  the value of parameters changes everytime a different word is added. it changes parameters[1] to the word to be added.
 - 'getPath()' returns a String which is the path of the URL, '/add'. 'getQuery()' returns a String that is the query, '?s=apple' and '?=pineapple'.
 
 
