@@ -111,7 +111,7 @@
 
 - This command option of _grep_ helps to match the lines of the files that start with the letters given in the String and contain the number of characters as specified by the number of "." put after the letters. 
 - It is useful for when we want only specific lines with some particular characters printed. 
-- For instance, in the third example, I wanted to look up only those lines whuch had the word 'research' in them and ended with 4 more characters and so I typed, "research....".
+- For instance, in the third example, I wanted to look up only those lines which had the word 'research' in them and ended with 4 more characters and so I typed, "research....".
 
 #### **Example 1**
 
@@ -377,7 +377,7 @@
 
 ----
 
- ### 3) *grep -v* 
+### 3) *grep -v* 
 
 - This third command option of _grep_ searches the file and prints the lines that do not contain the given String.
 - This is useful when we want to filter out all lines with some particular String in it. 
