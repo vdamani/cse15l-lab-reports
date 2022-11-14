@@ -8,30 +8,31 @@
 ### **Task:** Adding a new line to `print` before `File[] paths = f.listfiles()`
 ____
 
-1. `cd week6-skill-demo1`
+Step 1: 
+`cd week6-skill-demo1`
 ![CD into directory](ss1.png)
 
-2. `Vim DocSearchServer.java` < enter >
+Step 2: `Vim DocSearchServer.java` < enter >
 ![Vim](ss2.png)
 
-3. `/File[] path` < enter > 
+Step 3: `/File[] path` < enter > 
 - Searches for "File[] path" and the cursor lands on the first letter, F
 ![Search](ss3.png)
 
-4. `A` < enter >
+Step 4: `A` < enter >
 - Append at the end of the line and then < enter > to the next line
 ![A](ss6.png)
 
-5. `System.out.println(f.toString() + “is a directory.”);` < esc > 
+Step 5: `System.out.println(f.toString() + “is a directory.”);` < esc > 
 - Type print statement and escape from Insert Mode.
 
 ![SOP](SS7.png)
 
-6. `:wq`
+Step 6: `:wq`
 - Saves and exits the file
 ![save and exit](ss8.png)
 
-7. The new line to `print` has been added
+Step 7: The new line to `print` has been added
 ![final](ss9.png)
 
 _____
