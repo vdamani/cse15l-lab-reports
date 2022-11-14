@@ -23,7 +23,8 @@ ____
 ![A](ss6.png)
 
 5. `System.out.println(f.toString() + “is a directory.”);` < esc > 
-- Type print statement and escape from Insert Mode 
+- Type print statement and escape from Insert Mode.
+
 ![SOP](ss7.png)
 
 6. `:wq`
