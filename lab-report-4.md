@@ -25,7 +25,7 @@ ____
 5. `System.out.println(f.toString() + “is a directory.”);` < esc > 
 - Type print statement and escape from Insert Mode.
 
-![SOP](ss7.png)
+![SOP](SS7.png)
 
 6. `:wq`
 - Saves and exits the file
