@@ -40,7 +40,6 @@ ______
 
 While using the first method, wherein I had to `scp` the file to the remote server after making the edit on VS Code, it took me about 190 seconds to complete the edit.
 
-
 <br />
 
 In the second method, when I was already logged into ssh, all I had to do was open my file in Vim and make the edit which took me about 70 seconds to complete.
@@ -54,6 +53,13 @@ In the second method, when I was already logged into ssh, all I had to do was op
 
 *What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)*
 - If the project was much larger, I think I may prefer to work in VS Code first simply because I have not had much practice in Vim and as a result, don't know all the commands that make my work more efficient in it. Once I have more experience though, I think editing and running in Vim would save a lot of time as compared to the first method. 
+
+
+
+
+
+
+
 
 
 
