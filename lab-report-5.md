@@ -50,19 +50,19 @@ fi
 
 Student Submissions:
 
-1. 
+1. <br />
 ![example 1](ex1.png)
 
-2. 
+2. <br />
 ![example 2](ex2.png)
 
-3. 
+3. <br />
 ![example 3](ex3.png)
 <br />
 <br />
 <br />
 
-Trace:
+### __Trace__:
 
 For example 3:
 
@@ -79,7 +79,8 @@ Here, the return code was non-zero, since exit=1
 
 2) 
 
-```if [[ ! -f ListExamples.java ]]
+```
+if [[ ! -f ListExamples.java ]]
 then
     echo "File not found, check file name"
     exit 1
@@ -93,7 +94,8 @@ The exit occurs here.
 
 <br />
 
-```if [[ $? -ne 0 ]]
+```
+if [[ $? -ne 0 ]]
     then
     echo "File Compile Error, check error message"
     exit 1
