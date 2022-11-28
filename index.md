@@ -10,3 +10,5 @@
 
 
 [Lab Report 4](https://vdamani.github.io/cse15l-lab-reports/lab-report-4.html)
+
+[Lab Report 5](https://vdamani.github.io/cse15l-lab-reports/lab-report-5.html)
